@@ -3,6 +3,6 @@ module.exports = function getZerosCount(number) {
   while( ourNumber > 0){
     ourNumber = Math.floor(ourNumber/5);
     zCounter += ourNumber;
-  }
+  };
   return zCounter;
 }
